@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div>Form2</div>
+        <fieldset>
+            <legend>Form3</legend>
+            <form>
+                <label>Full Name (Autofocus)</label>
+                <input type="text" name="fullname" autofocus="autofocus"/>
+                <br/>
+                <label>Max Length</label>
+                <input type="text" name="abc" maxlength="3"/>
+                <br/>
+                 <label>Age Length</label>
+                 <input type="range" name="age"/>
+                <br/>
+                 <label>Date of Birth, Default</label>
+                <input type="date" name="dob"/>
+                <br/>
+                 <label>Date of Join, dd-mm-YYYY</label>
+                <input type="datetime" name="joiningdate"/>
+                <br/>
+                <label>Ful Name (Autofocus)</label>
+                Country Code <input type="text" name="country code" maxlength="3" pattern="[A-Za-z]{3}" title="Three later country code"/>
+                <br/>
+                password: <input type="password" name="pw" pattern="{6,}" title="Six or more charecter"/>
+                <br/>
+                Password: <input type="password" name="pw" pattern="{?,=*\d}{?=.*[a-z]} {A-Z}. {6,}" title="Eight or more character" value="send"/>
+
+            </form>
+        </fieldset>
+    </body>
+</html>
