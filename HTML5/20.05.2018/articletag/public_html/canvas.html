@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <canvas id="mycanvas" width="500" height="200"
+                style="border: 2px solid green;">
+            Your browser does not support the canvas element.
+        </canvas>
+        
+        <script>
+            var canvas = document.getElementById("mycanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "red";
+            ctx.fillRect(0, 0, 400,90);
+        </script>
+    </body>
+</html>
