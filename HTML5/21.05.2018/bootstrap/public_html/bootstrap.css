@@ -6755,17 +6755,15 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-/* custom css by Me*/
-#container.{
-    background: #990099
-        
-}
 .red{
-    background: #ff0033;
+    background: red;
+}
+.blue{
+    background: blue;
 }
 .green{
-    background: #009933;
+    background: green;
 }
 .yellow{
-    background: #ffff00
+    background: yellow;
 }
